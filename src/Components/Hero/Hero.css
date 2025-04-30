@@ -74,18 +74,18 @@
     line-height: 40px;
 }
 
-@media(max-width:760px){
+@media(max-width:414px){
     .hero img {
-        margin-bottom: 120px;
+        margin-bottom: 90px;
         width: 350px;
         height: 350px; /* Force equal height and width */
         object-fit: cover; /* Keeps the image nicely cropped */
         border-radius: 50%; /* Makes it a perfect circle */
     }
     .hero h1{
-        margin-bottom: 50px;
+        margin-bottom: 10px;
         width: 90%;
-        font-size: 50px;
+        font-size: 40px;
     }
     .hero p{
         width: 60%;

@@ -42,7 +42,7 @@
 }
 
 /* Media Query for Small Screens */
-@media (max-width: 768px) {
+@media (max-width: 414px) {
     .navbar {
         margin: 20px 20px;
         flex-direction: column;
@@ -70,9 +70,16 @@
 }
 .nav-mob-open{
     display: none;
+    position: fixed;
+    top: 30px;
+    width: 30px;
+    cursor: pointer;
+    z-index: 2;
+    transition: right 0.5s;
+
 }
 
-@media (max-width:768px){
+@media (max-width:414px){
     .navbar {
         margin: 20px 50px;
     }
@@ -82,13 +89,14 @@
     .nav-mob-open{
         display: block;
         position: fixed;
-        right: 30px;
+        right: 10px;
+        top: 10px;
     }
     .nav-mob-exit{
         display: block;
         position: relative;
         top: 30px;
-        left: 190px;
+        left: 200px;
         width: 30px;
     }
     .nav-menu{
@@ -106,8 +114,12 @@
     }
     .nav-menu li{
         font-size: 30px;
-        padding-left: 100px;
+        padding-left: 40px;
         flex-direction: row;
         gap: 20px;
+    }
+    .navbar1 img{
+        width: 100px;
+        height: 70px;
     }
 }

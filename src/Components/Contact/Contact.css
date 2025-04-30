@@ -103,7 +103,7 @@
     transition: 0.03s;
 }
 
-@media (max-width: 768px) {
+@media (max-width: 414px) {
     .contact{
         margin: 30px 20px;
         gap: 40px;
