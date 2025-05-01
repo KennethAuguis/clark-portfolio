@@ -32,22 +32,22 @@ const Contact = () => {
     return (
         <div id='contact' className="contact">
             <div className="contact-title">
-                <h1>Contact Me</h1>
+                <h1 style={{ cursor: 'default' }}>Contact Me</h1>
             </div>
             <div className="contact-session">
                 <div className="contact-left">
-                    <h1>Let's Talk</h1>
-                    <p>I'm currently available to take on new projects, so feel free to message me about anything you'd like me to work on. You can contact me anytime.</p>
+                    <h1 style={{ cursor: 'default' }}>Let's Talk</h1>
+                    <p style={{ cursor: 'default' }}>I'm currently available to take on new projects, so feel free to message me about anything you'd like me to work on. You can contact me anytime.</p>
                     <div className="contact-details">
                         <div className="contact-detail">
-                            <img src={email} alt="" /> <p>kennethclarkga@gmail.com</p>
+                            <img src={email} alt="" /> <p style={{ cursor: 'default' }}>kennethclarkga@gmail.com</p>
                         </div>
                          <div className="contact-detail">
-                         <img src={phone} alt="" /> <p>+639166076566</p>
+                         <img src={phone} alt="" /> <p style={{ cursor: 'default' }}>+639166076566</p>
 
                         </div>
                          <div className="contact-detail">
-                         <img src={location} alt="" /> <p>Arayat, Pampanga, Philippines</p>
+                         <img src={location} alt="" /> <p style={{ cursor: 'default' }}>Arayat, Pampanga, Philippines</p>
 
                         </div>
                     </div>

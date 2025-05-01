@@ -21,6 +21,7 @@
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
     gap: 40px;
+    cursor: default;
 }
 .mywork-container img {
     box-sizing: border-box;
@@ -51,7 +52,6 @@
 
     .mywork-container {
         grid-template-columns: 1fr 1fr; /* Two columns on small screens */
-        right: 300px;
     }
     .mywork-container img {
         width: 100%; /* Full width on small screens */

@@ -36,12 +36,12 @@
 
 .about p{
     margin-left: 350px;
-    margin-top: -350px;
+    margin-top: -450px;
 }
 
 .about-skills {
     margin-left: 350px;
-    margin-top: -250px;
+    margin-top: -350px;
 }
 
 .about-para{
@@ -118,6 +118,10 @@
     transform: scale(1.05);
     transition: 0.3s;
 }
+.no-text-cursor {
+    cursor: default;
+  }
+
 
 @media (max-width: 414px) {
     .about {

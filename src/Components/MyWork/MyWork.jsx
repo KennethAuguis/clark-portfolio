@@ -6,12 +6,19 @@ const MyWork = () => {
     return (
         <div id='work' className="mywork">
             <div className="mywork-title">
-            <h1>My Latest Work</h1>
+            <h1 style={{ cursor: 'default' }}>My Latest Work</h1>
             </div>
             <div className="mywork-container">
-            {Mywork_Data.map((work,index) => {
-                return <img key={index} src={work.w_img} alt="" />
-            })}
+            {Mywork_Data.map((work, index) => {
+                return (
+                    <img
+                    key={index}
+                    src={work.w_img}
+                    alt=""
+                    style={{ cursor: 'default' }}
+                    />
+                );
+                })}
             </div>
             <div className="mywork-showmore">
                 

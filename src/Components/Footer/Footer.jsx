@@ -8,7 +8,7 @@ const Footer = () => {
             <div className="footer-top">
                 <div className="footer-top-left">
                     <img src={clarki3} alt="" />
-                    <p>"I am a frontend developer and web designer from the Philippines, passionate about creating user-friendly and visually appealing websites. As a fresh graduate, I’m eager to learn, grow, and build innovative web solutions.".</p>
+                    <p style={{ cursor: 'default' }}>"I am a frontend developer and web designer from the Philippines, passionate about creating user-friendly and visually appealing websites. As a fresh graduate, I’m eager to learn, grow, and build innovative web solutions.".</p>
                 </div>
                 <div className="footer-top-right">
                     <div className="footer-email-input">
@@ -20,9 +20,9 @@ const Footer = () => {
             <div className="footer-bottom">
                 <p className="footer-bottom-left">@ 2025 Clark Auguis. All rights</p>
                 <div className="footer-bottom-right">
-                    <p>Term of Service</p>
-                    <p>Privacy Policy</p>
-                    <p>Connect with me</p>
+                    <p style={{ cursor: 'default' }}>Term of Service</p>
+                    <p style={{ cursor: 'default' }}>Privacy Policy</p>
+                    <p style={{ cursor: 'default' }}>Connect with me</p>
                 </div>
             </div>
         </div>
