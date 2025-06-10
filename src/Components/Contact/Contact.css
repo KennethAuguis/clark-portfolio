@@ -129,18 +129,18 @@
         width: 30px;
     }
     .contact-right {
-        width: 100%;
+        width: 90%;
     }
     .contact-right input,
     .contact-right textarea {
-        width: 100%;
+        width: 90%;
         font-size: 16px;
     }
     .contact-right label {
         font-size: 18px;
     }
     .contact-submit {
-        width: 100%;
+        width: 90%;
         font-size: 18px;
     }
     .contact-submit:hover {
