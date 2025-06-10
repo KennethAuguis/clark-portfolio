@@ -26,7 +26,7 @@
 .mywork-container img {
     box-sizing: border-box;
     width: 400px; 
-    height: 300px; 
+    height: 400px; 
     object-fit: cover; 
     border-radius: 10px;
     transition: 0.03s;
@@ -34,7 +34,7 @@
 }
 .mywork-container img:hover {
     transform: scale(1.05);
-    border: 4px solid #b50cbe;
+    border: 4px solid #2f0cf0;
     border-radius: 10px;
     transition: 0.03s;
 }

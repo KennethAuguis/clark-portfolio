@@ -1,104 +1,151 @@
-.services{
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    gap: 80px;
-    margin: 80px, 170px;
+.services {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 80px;
+  margin: 80px 170px;
 }
 
-.services-title{
-    position: relative;
+.services-title {
+  position: relative;
 }
-.services-title h1{
-    padding: 0px 30px;
-    font-size: 80px;
-    font-weight: 600;
+
+.services-title h1 {
+  padding: 0px 30px;
+  font-size: 80px;
+  font-weight: 600;
 }
-.services-format{
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
+
+.services-container {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  gap: 40px;
+  margin-bottom: 80px;
+  cursor: default;
+}
+
+.services-format {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 20px;
+  padding: 60px;
+  border-radius: 10px;
+  border: 2px solid white;
+  transition: 0.4s;
+  cursor: pointer;
+}
+
+.services-format h3 {
+  font-size: 28px;
+  font-weight: 600;
+}
+
+.services-format h2 {
+  font-size: 38px;
+  font-weight: 800;
+  background: linear-gradient(267deg, #435eec 0.36%, #b24af2 100%);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.services-format p {
+  color: rgb(7, 7, 7);
+  font-size: 24px;
+  line-height: 40px;
+  max-width: 300px;
+}
+
+.services-readmore {
+  display: flex;
+  gap: 20px;
+  align-items: center;
+  margin-top: 20px;
+}
+
+.services-format:hover {
+  border: 2px solid rgb(21, 21, 21);
+  background-image: linear-gradient(260deg, #dd33d5 10%, #98d1eb 100%);
+  transform: scale(1.05);
+  transition: 0.4s;
+}
+
+/* =============== MEDIA QUERIES =============== */
+
+/* iPhones (max-width: 430px) */
+@media (max-width: 430px) {
+  .services {
+    align-items: flex-start;
+    gap: 50px;
+    margin: 20px 30px;
+  }
+
+  .services-title h1 {
+    padding: 0;
+    font-size: 40px;
+  }
+
+  .services-format {
+    gap: 8px;
+    padding: 20px;
+  }
+
+  .services-format h3 {
+    font-size: 20px;
+  }
+
+  .services-format h2 {
+    font-size: 18px;
+  }
+
+  .services-format p {
+    font-size: 12px;
+    line-height: 24px;
+  }
+
+  .services-container {
+    grid-template-columns: 1fr;
     gap: 20px;
-    padding: 60px;
-    border-radius: 10px;
-    border: 2px solid white;
-    transition: 0.4s;
-    cursor: pointer;
+    margin-left: 0;
+  }
 }
-.services-container{
-    display: grid;
+
+/* Tablets and Laptops (768px - 1366px) */
+@media (min-width: 768px) and (max-width: 1366px) {
+  .services {
+    gap: 60px;
+    margin: 40px 80px;
+  }
+
+  .services-title h1 {
+    font-size: 60px;
+  }
+
+  .services-container {
+    grid-template-columns: 1fr 1fr;
+    gap: 30px;
+  }
+
+  .services-format p {
+    font-size: 20px;
+  }
+}
+
+/* Large Desktops (1440px and above) */
+@media (min-width: 1440px) {
+  .services {
+    gap: 80px;
+    margin: 80px 170px;
+  }
+
+  .services-title h1 {
+    font-size: 80px;
+  }
+
+  .services-container {
     grid-template-columns: 1fr 1fr 1fr;
     gap: 40px;
-    margin-bottom: 80px;
-    cursor: default;
-      
-}
-.services-format h3{
-    font-size: 28px;
-    font-weight: 600;
-}
-.services-format h2{
-    font-size: 38px;
-    font-weight: 800;
-    background: linear-gradient(260deg, #DF8908 10%, #B415FF 100%);
-    background-clip: text;
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
-}
-.services-format p{
-    color: white;
-    font-size: 24px;
-    line-height: 40px;
-    max-width: 300px;
-}
-.services-readmore{
-    display: flex;
-    gap: 20px;
-    align-items: center;
-    margin-top: 20px;
-}
-
-.services-format:hover{
-    border: 2px solid rgb(228, 6, 187);
-    background-image: linear-gradient(260deg, #df0808 10%, #0c0a0d 100%);
-    transform: scale(1.05);
-    transition: 0.4s;
-}
-
-@media (max-width: 414px) {
-    .services {
-        align-items: start;
-        gap: 50px;
-        margin: 20px 70px;
-    }
-
-    .services-title h1 {
-        padding: 0;
-        font-size: 50px;
-    }
-
-    .services-title img {
-        width: 130px;
-        margin-right: 60px;
-    }
-
-    .services-format {
-        gap: 10px;
-        padding: 10px;
-    }
-    .services-format h2{
-        font-size: 16px;
-    }
-    .services-format p{
-        font-size: 9px;
-        line-height: 32px;
-        max-width: 300px;
-    }
-    .services-container {
-        margin-left: -60px;
-        grid-template-columns: 1fr 1fr;
-        gap: 10px;
-
-    }
+  }
 }

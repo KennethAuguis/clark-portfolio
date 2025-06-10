@@ -1,6 +1,6 @@
 import React from "react";
 import "./Contact.css";
-import location from "../../assets/location.jpg";
+import location from "../../assets/location.png";
 import phone from "../../assets/phone.png";
 import email from "../../assets/email.png";
 

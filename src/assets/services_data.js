@@ -1,7 +1,7 @@
 const Services_Data = [
   {
     s_no: "01",
-    s_name: "React Development",
+    s_name: "Vite-React Development",
     s_desc: "I use React's capabilities to create a contemporary, component-based single-page user experience."
   },
   {

@@ -4,8 +4,16 @@
     align-items: center;
     justify-content: space-between;
     margin: 30px 160px;
+    transition: transform 0.5s ease;
+    
 }
 
+p {
+    font-size: 20px;
+    color: rgb(13, 13, 13);
+    font-weight: 500;
+     transform: scale(1.05);
+}
 
 .navbar img {
     width: 150px;  
@@ -21,18 +29,12 @@
     font-size: 20px;
 }
 
-
-.line-img {
-    margin-left: -40px;
-    margin-top: 5px; 
-}
-
 .nav-connect {
     padding: 20px 40px;
     border-radius: 50px;
-    background: linear-gradient(267deg, #DA7C25 0.36%, #B923E1 100%);
+    background: linear-gradient(267deg, #435eec 0.36%, #b24af2 100%);
     font-size: 22px;
-    color: white;
+    color: rgb(12, 12, 12);
     cursor: pointer;
     transition: transform 0.5s ease;
 }
@@ -40,13 +42,13 @@
 .nav-connect:hover {
     transform: scale(1.05);
 }
+
 .nav-link-text {
     white-space: nowrap;
     overflow: hidden;
     text-overflow: ellipsis;
     max-width: 120px;
-  }
-  
+}
 
 /* Media Query for Small Screens */
 @media (max-width: 768px) {
@@ -67,15 +69,16 @@
     }
 }
 
-.anchor-link{
+.anchor-link {
     text-decoration: none;
     color: white;
 }
 
-.nav-mob-exit{
+.nav-mob-exit {
     display: none;
 }
-.nav-mob-open{
+
+.nav-mob-open {
     display: none;
     position: fixed;
     top: 30px;
@@ -83,49 +86,48 @@
     cursor: pointer;
     z-index: 2;
     transition: right 0.5s;
-
 }
 
-@media (max-width:414px){
+@media (max-width:414px) {
     .navbar {
         margin: 20px 50px;
     }
-    .nav-connect{
+    .nav-connect {
         display: none;
     }
-    .nav-mob-open{
+    .nav-mob-open {
         display: block;
         position: fixed;
         right: 10px;
         top: 10px;
     }
-    .nav-mob-exit{
+    .nav-mob-exit {
         display: block;
         position: relative;
         top: 30px;
         left: 200px;
         width: 30px;
     }
-    .nav-menu{
+    .nav-menu {
         position: fixed;
         flex-direction: column;
         align-items: start;
         top: 0px;
         gap: 30px;
-        background-color: #1f0016;
+        background-color: #dadfe2;
         width: 350px;
         height: 100%;
         z-index: 2;
         transition: right 0.5s;
         right: -350px;
     }
-    .nav-menu li{
+    .nav-menu li {
         font-size: 30px;
         padding-left: 40px;
         flex-direction: row;
         gap: 20px;
     }
-    .navbar1 img{
+    .navbar1 img {
         width: 100px;
         height: 70px;
     }
