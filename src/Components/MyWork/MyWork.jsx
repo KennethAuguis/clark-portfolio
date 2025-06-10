@@ -1,12 +1,12 @@
 import React from "react";
 import "./MyWork.css";
-import Mywork_Data from "../../assets/mywork_data";
+import Mywork_Data from "../../assets/Myproject_Data";
 
 const MyWork = () => {
     return (
         <div id='work' className="mywork">
             <div className="mywork-title">
-            <h1 style={{ cursor: 'default' }}>My Certificates</h1>
+            <h1 style={{ cursor: 'default' }}>My Work</h1>
             </div>
             <div className="mywork-container">
             {Mywork_Data.map((work, index) => {
@@ -16,6 +16,7 @@ const MyWork = () => {
         href={work.w_link}
         target="_blank"
         rel="noopener noreferrer"
+        style={{ cursor: 'default' }}
       >
         <img
           src={work.w_img}

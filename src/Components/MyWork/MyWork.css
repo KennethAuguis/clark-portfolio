@@ -22,11 +22,12 @@
     grid-template-columns: 1fr 1fr 1fr;
     gap: 40px;
     cursor: default;
+    cursor: 'default';
 }
 .mywork-container img {
     box-sizing: border-box;
     width: 400px; 
-    height: 400px; 
+    height: 300px; 
     object-fit: cover; 
     border-radius: 10px;
     transition: 0.03s;
