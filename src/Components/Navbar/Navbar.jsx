@@ -1,6 +1,6 @@
 import React, { useState, useRef } from "react";
 import './Navbar.css';
-import clarki3 from '../../assets/clarki3.png'; // Logo image
+import clarki3 from '../../assets/clarki3.png';
 import AnchorLink from "react-anchor-link-smooth-scroll";
 import menu_open from '../../assets/menu_open.png'// Hamburger menu icon
 import menu_close from '../../assets/menu_close.png'; // Exit icon for mobile menu
@@ -45,7 +45,12 @@ function Navbar() {
                 </li>
                 <li>
                     <AnchorLink className='anchor-link' offset={50} href='#work'>
-                        <p>My Certificates</p>
+                        <p>My Work</p>
+                    </AnchorLink>
+                </li>
+                <li>
+                    <AnchorLink className='anchor-link' offset={50} href='#certificate'>
+                        <p>Certificates</p>
                     </AnchorLink>
                 </li>
                 <li>
