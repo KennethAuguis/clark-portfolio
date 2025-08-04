@@ -9,7 +9,7 @@ const Hero = () => {
       <img src={profile4} alt="Kenneth" className="hero-img" />
       <div className="hero-content">
         <h1 style={{ cursor: 'default' }}>
-          I'm Kenneth <span style={{ cursor: 'default' }}>Front End Developer</span>
+          I'm Kenneth <span style={{ cursor: 'default' }}>UI/UX Designer</span>
         </h1>
         <p style={{ cursor: 'default' }}>
           I build clean, simple, and user-friendly digital experiences.
