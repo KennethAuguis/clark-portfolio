@@ -1,12 +1,12 @@
 import React from "react";
 import './Hero.css';
-import profile4 from '../../assets/profile4.svg';
+import profile from '../../assets/profile.png';
 import AnchorLink from "react-anchor-link-smooth-scroll";
 
 const Hero = () => {
   return (
     <div id='home' className='hero'>
-      <img src={profile4} alt="Kenneth" className="hero-img" />
+      <img src={profile} alt="Kenneth" className="hero-img" />
       <div className="hero-content">
         <h1 style={{ cursor: 'default' }}>
           I'm Kenneth <span style={{ cursor: 'default' }}>UI/UX Designer</span>
@@ -22,7 +22,7 @@ const Hero = () => {
           </div>
           <div className="hero-resume">
             <a
-              href="https://kennethauguis.github.io/clark-portfolio/Resume.pdf"
+              href="public/KENNETH CLARK G. AUGUIS CV.pdf"
               target="_blank"
               rel="noopener noreferrer"
               className="resume-link"

@@ -1,20 +1,21 @@
 import Tatay from "../assets/Tatay.png";
-import KIM from "../assets/KIM.png";
+import Vendor_Dashboard from "../assets/Vendor_Dashboard.png";
 import Brand_Stylescape from "../assets/Brand_Stylescape.png";
+import Ordering_System from "../assets/Ordering_System.png";
 import Bento from "../assets/Bento.png";
 
 const Myproject_Data = [
   {
     w_no: 1,
-    w_name: "KIM_img",
-    w_img: KIM,
-    w_link: "https://www.figma.com/proto/6oF6eB6rRGXLJiib9pLOsv/Ow-Ragon.ph?node-id=1-2&p=f&t=Gk7aeifqKsRtwt3w-0&scaling=scale-down-width&content-scaling=fixed&page-id=0%3A1&starting-point-node-id=1%3A2"
+    w_name: "Ordering_System_img",
+    w_img: Ordering_System,
+    w_link: "https://apporderingsystem.my.canva.site/"
   },
   {
     w_no: 2,
-    w_name: "Tatay_img",
-    w_img: Tatay,
-    w_link: "https://www.figma.com/proto/T0IS4at1hXLQQTr472raU1/E.N.A?node-id=1-2&p=f&t=9FQCJwcYhiSlpSmj-0&scaling=min-zoom&content-scaling=fixed&page-id=0%3A1&starting-point-node-id=1%3A2" // Optional: add a different link if available
+    w_name: "Vendor_Dashboard_img",
+    w_img: Vendor_Dashboard,
+    w_link: "https://apporderingsystem.my.canva.site/vendor-app"
   },
     {
     w_no: 3,

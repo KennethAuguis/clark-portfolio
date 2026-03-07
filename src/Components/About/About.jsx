@@ -24,7 +24,6 @@ const About = () => {
           <div className="about-skills">
             <div className="about-skill"><h4>HTML & CSS</h4></div>
             <div className="about-skill"><h4>JavaScript</h4></div>
-            <div className="about-skill"><h4>Vite-React</h4></div>
             <div className="about-skill"><h4>Canva</h4></div>
             <div className="about-skill"><h4>Figma</h4></div>
             <div className="about-skill"><h4>Vue js</h4></div>
@@ -34,8 +33,8 @@ const About = () => {
 
       <div className="about-achievements">
         <div className="about-achievement">
-          <h1>20+</h1>
-          <h3>SCHOOL PROJECTS COMPLETED</h3>
+          <h1>3</h1>
+          <h3>PROJECTS</h3>
         </div>
         <hr />
         <div className="about-achievement">
